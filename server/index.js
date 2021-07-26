@@ -2,9 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const { Pool } = require("pg");
-
-// const bodyParser = require('body-parser')
-// const pool = require("./db");
+const keys = require("./keys")
 
 //middleware
 app.use(cors())
