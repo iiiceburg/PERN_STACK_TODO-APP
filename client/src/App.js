@@ -5,7 +5,7 @@ import ListTodos from './components/ListTodo';
 
 function App() {
   return ( <Fragment>
-  <div className="container">
+  <div className="container-app">
     <InputTodo />
     <ListTodos />
   </div>
